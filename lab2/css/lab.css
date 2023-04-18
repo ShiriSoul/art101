@@ -7,3 +7,17 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  h1 {
+    color: pink;
+    font-size: 250%;
+}
+
+p {
+    text-indent: 30px;
+}
+
+#output {
+    border: dashed 10px magenta;
+
+}
