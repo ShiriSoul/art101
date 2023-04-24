@@ -3,3 +3,18 @@
 #my-portrait {
   width: 500px;
 }
+
+.minor-section {
+  border: solid 5px darkblue;
+  background-color: rgb(110, 159, 176);
+}
+
+#section2 {
+  border: solid 5px darkblue;
+  background-color: rgb(110, 159, 176);
+}
+
+#content {
+  background-color: rgb(216, 127, 192);
+  
+}
