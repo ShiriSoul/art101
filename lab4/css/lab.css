@@ -9,18 +9,20 @@
   }
 
 #tofu {
-    width: 500px;
+    width: 250px;
 }
 
 #rockpaperscissors {
-    width: 500px;
+    width: 250px;
+}
+#jslab4 {
+    width: 1000px;
 }
 
 #lab4section {
   padding: 10px;
   border: solid 5px rgb(244, 153, 62);
   font-style: oblique;
-  font-size: large;
   background-color: rgb(87, 149, 159);
 }
 
@@ -28,6 +30,12 @@
   padding: 10px;
   border: solid 5px rgb(244, 153, 62);
   font-style: oblique;
-  font-size: large;
+  background-color: rgb(87, 149, 159);
+}
+
+#lab4section3 {
+  padding: 10px;
+  border: solid 5px rgb(244, 153, 62);
+  font-style: oblique;
   background-color: rgb(87, 149, 159);
 }
