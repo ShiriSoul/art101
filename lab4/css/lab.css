@@ -7,3 +7,27 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+#tofu {
+    width: 500px;
+}
+
+#rockpaperscissors {
+    width: 500px;
+}
+
+#lab4section {
+  padding: 10px;
+  border: solid 5px rgb(244, 153, 62);
+  font-style: oblique;
+  font-size: large;
+  background-color: rgb(87, 149, 159);
+}
+
+#lab4section2 {
+  padding: 10px;
+  border: solid 5px rgb(244, 153, 62);
+  font-style: oblique;
+  font-size: large;
+  background-color: rgb(87, 149, 159);
+}
