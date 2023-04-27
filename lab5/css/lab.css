@@ -7,3 +7,39 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+#console {
+    width: 950px;
+  }
+
+#lab5java {
+    width: 700px;
+  }
+
+#lab5section {
+    padding: 10px;
+    margin: auto;
+    border: solid 10px rgb(137, 88, 216);
+    background-color: rgb(220, 220, 107);
+  }
+
+#text5 {
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+  }
+
+#javalab5s {
+    font-style: oblique;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+  }
+
+#javalab5s2 {
+    padding: 10px;
+    border: solid 5px rgb(72, 83, 241);
+    font-style: oblique;
+    background-color: rgb(159, 228, 128);
+    text-align: center;
+  }

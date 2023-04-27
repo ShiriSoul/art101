@@ -1,6 +1,24 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 5 task 2: Declaring variables of a method of transportation
+// Author: Tony Pau
+// Date: April 26, 2023
+
+//Declare Variables
+make = "Mercedes";
+model = "GLE-350";
+color = "Red";
+year = 2020;
+ownIt = "no";
+
+//Calculate Age
+age = 2023 - year;
+
+//output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + "<br>");
+document.writeln("Do you own it? " + ownIt + "<br>");
 
 // Constants
 
