@@ -7,3 +7,29 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+#mercedes {
+   width: 500px;
+  }
+
+#javalab6script {
+    width: 750px;
+  }
+
+#toplab6htmls {
+    width: 1000px;
+  }
+
+#bottomlab6htmls {
+    width: 1000px;
+  }
+
+#javalab6sec {
+    padding: 10px;
+    border: solid 5px rgb(72, 83, 241);
+    font-style: oblique;
+    background-color: rgb(159, 228, 128);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+  }
