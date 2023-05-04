@@ -1,0 +1,31 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+#lab7top {
+    width: 750px;
+}
+
+#lab7bot {
+    width: 750px;
+}
+
+#jlab7s {
+    width: 500px;
+}
+
+#javalab7sec {
+    padding: 10px;
+    border: solid 5px rgb(72, 83, 241);
+    font-style: oblique;
+    background-color: rgb(159, 228, 128);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+  }
