@@ -1,0 +1,16 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+#javalab10sec {
+    padding: 10px;
+    border: solid 5px rgb(80, 172, 175);
+    font-style: oblique;
+    background-color: cyan;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+  }

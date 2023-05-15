@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 7: Functions</title>
+	<title>Lab 10: JavaScript Events and Forms</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -13,66 +13,51 @@
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+    <!-- Lab-specifc CSS file for Open Sans font of this page -->
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+	<script type="text/javascript" src="js/lab.js" DEFER></script>
+
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 7: Functions</h1>
+			<h1>Lab 10: JavaScript Events and Forms</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>The challenge is to take an input, in this case being your name, and then manipulating a string.
-                        The name should then be sorted by letter order.
-                    </p>
+					<p>The goal of this lab is to experiment with events and foms in javascript.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>I didn't really face any issues for this lab. 
-                        I had already learned most of this in class and the lab was more of a review. </p>
+					<p>I didn't encounter any problems with this lab since the lectue went over it and the instructions for this lab was clear. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>This assignment was overall quite easy, I didn't have any real problems.
-                        I did forget a single capitalization for a variable but it was quickly fixed.
-                        I tried to stylize the webpage but to keep everything nice and clean, I only stylized the script out section.
-                    </p>
+					<p>I found this lab to be a lot shorter and easier than lab 9. The content was a lot easier to learn but was definitely essential to learn.
+                        I was able to learn about javascript events and forms which is something used daily. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output">
-                        <center> <h3>Lab 7 index.html Code</h3> </center>
-						<section id="lab7img">
-							<center>
-							<img id="lab7top" src="img/lab7top.jpg"/>
-                            </center>
-                            <center>
-							<img id="lab7bot" src="img/lab7bot.jpg"/>
-							</center>
-						</section>
-                        <center>
-                        <h3>Lab 7 JavaScript Code</h3>
-                        <img id="jlab7s" src="img/lab7js.jpg"/>
-                        </center>
-                        <section id="javalab7sec">
-                        <div>
-                            <h2>Script Output</h2>
-                            <script type="text/javascript" src="js/lab.js"></script>
-                        </div>
-                        </section>
-                    </div>
+                    <section id="javalab10sec">
+                        <p>Put In Your Name:</p>
+                        <input type="input" id="user-name">
+                        <br>
+                        <button id="button1">Press Me To Sort Your Name!</button>
+                        <h3>Script Output</h3>
+					    <div id="output"></div>
+                    </section>
 			</div>
 		</section>
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
-			<div>
+            <div>
                 <ul>
                     <li>
                         <a href="../index.html">Homepage</a>
@@ -93,13 +78,13 @@
                         <a href="lab6/index.html">Lab 6: Arrays and Objects</a>
                     </li>
                     <li>
+                        <a href="lab7/index.html">Lab 7: Functions</a>
+                    </li>
+                    <li>
                         <a href="lab8/index.html">Lab 8: Anon Functions and Callbacks</a>
                     </li>
                     <li>
                         <a href="lab9/index.html">Lab 9: JavaScript for the Web</a>
-                    </li>
-                    <li>
-                        <a href="lab10/index.html">Lab 10: JavaScript Events and Forms</a>
                     </li>
                 </ul>
             </div>
