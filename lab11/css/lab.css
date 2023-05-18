@@ -11,3 +11,17 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+.special {
+    background-color: rgb(143, 184, 90);
+}
+
+.blue {
+    color: white;
+    background-color: blue;
+}
+
+.red {
+    color: white;
+    background-color: red;
+}
