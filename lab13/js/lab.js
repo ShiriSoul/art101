@@ -6,18 +6,16 @@ var maxFactors = 4;
 
 var outputEl = $("#output");
 
-// function taken from Wes's JavaScript file, converted from pure JS to jQuery
-// through ChatGPT
 function fizzBuzzBoom(maxNums, factorObj) {
-    // iterate over all numbers
+    // Iterate over all numbers
     for (var i = 0; i < maxNums; i++) {
-        // reset output string
+        // Resets output string
         var outputStr = "";
-        // iterate over the factors we got from the HTML
+        // Iterate over the factors from index.html
         for (var factor in factorObj) {
-            // check to see if this num is a multiple of factor
+            // Checks to see if num is a multiple of factor
             if (i % factor == 0) {
-                // if yes, then add the text to output string
+                // If true, then adds the text to outputStr
                 outputStr += factorObj[factor];
             }
         }
@@ -28,8 +26,6 @@ function fizzBuzzBoom(maxNums, factorObj) {
     }
 }
 
-// function taken from Wes's JavaScript file, converted from pure JS to jQuery
-// through ChatGPT
 function getFactorObj() {
     var factorObj = {};
     for (var factor = 0; factor < maxFactors; factor++) {
@@ -38,7 +34,7 @@ function getFactorObj() {
         numValue = $("#" + numId).val();
         textValue = $("#" + textId).val();
         console.log(factor + ") num:", numValue, "text:", textValue)
-        // if either value is blank, don't use it
+        // If either value is blank then don't use it
         if (numValue && textValue) {
             factorObj[numValue] = textValue;
         }
@@ -46,22 +42,16 @@ function getFactorObj() {
     return factorObj;
 }
 
-// function taken from Wes's JavaScript file, converted from pure JS to jQuery
-// through ChatGPT
 function outputToPage(str) {
     var newEl = $("<p></p>");
     newEl.html(str);
     outputEl.append(newEl);
 }
 
-// function taken from Wes's JavaScript file, converted from pure JS to jQuery
-// through ChatGPT
 function reportError(str) {
     outputEl.html("<div class='error'>" + str + "</div>");
 }
 
-// function taken from Wes's JavaScript file, converted from pure JS to jQuery
-// through ChatGPT
 $("#submit").click(function() {
     var max = $("#max").val();
     console.log("max:", max);
@@ -75,7 +65,7 @@ $("#submit").click(function() {
         reportError("You must provide at least one factor and text.");
         return;
     }
-    // clear error if there is one
+    // Clears errors
     outputEl.html("");
     fizzBuzzBoom(max, factorObj);
     outputEl.addClass("cols");
