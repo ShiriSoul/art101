@@ -1,0 +1,41 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+  .content {
+    font-family: "Open Sans";
+}
+
+input[type="number"] {
+    width: 40px;
+}
+
+input[type="text"] {
+    width: 100px;
+}
+
+table {
+    padding: 20px;
+}
+
+#input {
+    border: solid 1px rgb(109, 99, 99);
+    background-color: rgb(107, 166, 221);
+    padding: 10px;
+    font-family: "Open Sans";
+}
+
+#output {
+    border: solid 1px black;
+    background-color: rgb(107, 166, 221);
+    padding: 10px;
+    columns: 5;
+}
+
+#output p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
