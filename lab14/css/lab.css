@@ -1,0 +1,43 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+
+.content {
+    font-family: "Open Sans";
+    }
+
+#output {
+    border: solid 1px black;
+    background-color: rgb(107, 166, 221);
+    padding: 10px;
+    columns: 5;
+    }
+
+/* Styles screens up to 600px wide */
+@media (max-width: 600px) {
+    /* CSS rules applies to screens up to 600px wide */
+        body {
+        font-size: 16px;
+        }
+    }
+  
+/* Styles screens 601px to 900px wide */
+@media (min-width: 601px) and (max-width: 900px) {
+    /* CSS rules applies to screens between 601px to 900px wide */
+        body {
+        font-size: 18px;
+        }
+    }
+  
+/* Styles screens above 900px wide */
+@media (min-width: 901px) {
+    /* CSS rules applies to screens above 900px wide */
+        body {
+        font-size: 20px;
+        }
+    }
+  
