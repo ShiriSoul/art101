@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 6: Arrays and Objects</title>
+	<title>Lab 15: AJAX</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -13,56 +13,41 @@
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<!-- Lab specific CSS file for Open Sans font of this particular page -->
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+	<!-- Link to javascript file -->
+	<script type="text/javascript" src="js/lab.js" defer></script>
+
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 6: Arrays and Objects</h1>
-			<img id="mercedes" src="img/mercedes.jpg"/>
-			<div class="minor-section">
-					<h2>Challenge</h2>
-					<p>The goal of this lab is to practice with arrays and objects in javascript. </p>
-			</div>
+			<h1>Lab 15: AJAX</h1>
+			<div id="challenge" class="minor-section">
+                    <h2>Challenge</h2>
+                    <p>The goal of this lab is to use API endpoints and experiment with jQuery and AJAX. </p>
+            </div>
 
-			<div class="minor-section">
-					<h2>Problems</h2>
-					<p>There were no problems with the lab as instructions were very straight forward. </p>
-			</div>
+            <div id="problems" class="minor-section">
+                    <h2>Problems</h2>
+                    <p>I had no issues on this lab as we went over it in the lecture and this lab is realitvely easy.
+                        We just take what we have from the API endpoint and have the information be returned when a button is clicked. </p>
+            </div>
 
-			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Overall this lab was extremely easy to me.
-						Even though I barely remember what we learned in class the day before,
-						the lab instructions were very simple and clear that I was able to understand what to do just fine. </p>
-			</div>
+            <div id="reflection" class="minor-section">
+                    <h2>Reflection</h2>
+                    <p>This lab was a fun little and I stylized it alot. I think it will be useful to know how to use AJAX in the future so this lab was not only fun but also a greatly important learning experience. </p>
+            </div>
 
-			<div class="minor-section">
-					<h2>Results</h2>
-					<div id="output">
-						<center>
-						<h3>Lab 6 JavaScript Code</h3>
-						<img id="javalab6script" src="img/lab6java.jpg"/>
-						</center>
-						<center> <h3>Lab 6 HTML Code</h3> </center>
-						<section id="lab6img">
-							<center>
-							<img id="toplab6htmls" src="img/toplab6.jpg"/>
-							<img id="bottomlab6htmls" src="img/bottomlab6.jpg"/>
-							</center>
-						</section>
-						<section id="javalab6sec">
-						<div>
-							<h2>Script Output</h2>
-							<script src="js/lab.js"></script>
-						</div>
-						</section>
-					</div>
+			<div id="results" class="minor-section">
+                    <h2>Results<img id="ratpng" src="../lab15/img/rat.png"/></h2>
+                    <img src="../lab15/img/burnedtower.jpg">
+                    <button class="btn">Where are we?</button>
+				    <div id="output"></div>
 			</div>
 		</section>
 		<nav id="links">
@@ -85,6 +70,9 @@
                         <a href="/art101/lab5/index.html">Lab 5: Data Types and Variables</a>
                     </li>
                     <li>
+                        <a href="/art101/lab6/index.html">Lab 6: Arrays and Objects</a>
+                    </li>
+                    <li>
                         <a href="/art101/lab7/index.html">Lab 7: Functions</a>
                     </li>
                     <li>
@@ -102,14 +90,11 @@
                     <li>
                         <a href="/art101/lab12/index.html">Lab 12: Conditionals</a>
                     </li>
-					<li>
+                    <li>
                         <a href="/art101/lab13/index.html">Lab 13: Loops</a>
                     </li>
-					<li>
+                    <li>
                         <a href="/art101/lab14/index.html">Lab 14: Debugging Tools & Strategies</a>
-                    </li>
-					<li>
-                        <a href="/art101/lab15/index.html">Lab 15: AJAX</a>
                     </li>
                 </ul>
             </div>

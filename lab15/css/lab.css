@@ -1,0 +1,68 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #793bac;
+  }
+  
+#content {
+    background-color: #506ed3;
+}
+  
+body {
+    background-color: #4446bd;
+}
+
+.content {
+    font-family: "Open Sans";
+}
+
+#output {
+    border: solid 1px rgb(79, 3, 109);
+    background-color: rgb(142, 42, 161);
+    padding: 10px;
+}
+
+/* Container needed to position the button. Adjust the width as needed /
+.container {
+  position: relative;
+  width: 50%;
+}
+*/
+
+.minor-section img {
+  width: 500px;
+  height: auto;
+}
+
+.minor-section .btn {
+  position: absolute;
+  top: 110%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.minor-section .btn:hover {
+  background-color: rgb(66, 65, 65);
+}
+
+#output {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+#ratpng {
+  width: 60px;
+  position:absolute;
+  left: 15%;
+  top: 120%;
+}
