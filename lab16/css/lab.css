@@ -1,0 +1,16 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #793bac;
+}
+
+.content {
+    font-family: "Open Sans";
+}
+
+#output {
+    border: solid 1px rgb(79, 3, 109);
+    background-color: rgb(142, 42, 161);
+    padding: 10px;
+}
